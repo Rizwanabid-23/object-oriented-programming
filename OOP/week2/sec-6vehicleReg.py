@@ -1,0 +1,290 @@
+import os
+reg_list = []
+regPin_list = []
+total = 0
+ownername_list = []
+ownerplate_list = []
+ownermodel_list = []
+vehicleCounter = 0
+importedCounter = 0
+importedname_list = []
+importedplate_list = []
+importedyear_list = []
+final = []
+duplicate = []
+tax_list = []
+
+counter = 0
+
+
+def adminMenu():
+    print("** Admin Menu**")
+    print("   ----------  ")
+    print(" ")
+    print("1:Add a registrar")
+    print("2:Change password of registrar")
+    print("3:View all registrars")
+    print("4:Log out")
+    print(" ")
+    adminOption = int(input("Enter your option: "))
+    return adminOption
+
+
+def addReg():
+    print("Add a registrar")
+    print("---------------")
+    Reg = input("Enter name of registrar: ")
+    Pin = input("Enter password of registrar: ")
+    ch = input("Press enter to continue...")
+    global reg_list
+    reg_list.append(Reg)
+    global regPin_list
+    regPin_list.append(Pin)
+    global total
+    
+    file1=open("regName.txt","a")
+    print(Reg,file=file1,sep="\n")
+    file1.close()
+    file2=open("regPass.txt","a")
+    print(Pin,file=file2,sep="\n")
+    file2.close()
+    total += 1
+
+
+def changeReg():
+    print("Change password of registrar")
+    print("----------------------------")
+    name = input("Enter name of registrar: ")
+    for i in range(0, total):
+        if name == reg_list[i]:
+            newpin = input("Enter new password: ")
+            regPin_list[i] = newpin
+            index=i
+    ch = input("Press any key to continue...")
+
+
+def viewReg():
+    print("Following registrars are enrolled:")
+    print(" ")
+    print("Name", "\t", "Pin")
+    for i in range(0, total):
+        print(reg_list[i], "\t", regPin_list[i])
+    ch = input("Press any key to continue...")
+
+
+def regMenu():
+    print("**Registrar Menu**")
+    print(" ")
+    print("1: Add vehicle.")
+    print("2: Change vehicle owner.")
+    print("3: View all vehicles.")
+    print("4: Sort vehicles with latest being first.")
+    print("5: Register an imported vehicle.")
+    print("6: View all imported vehicles.")
+    print("7: View imported cars tax defaulters.")
+    print("8: Log out.")
+    print(" ")
+    regOption = int(input("Enter your option: "))
+    return regOption
+
+
+def addVehicle():
+    print("Add a new vehicle")
+    name = input("Enter name of owner: ")
+    plate = input("Enter number plate of vehicle: ")
+    model = int(input("Enter model year of vehicle: "))
+    global ownername_list
+    global ownerplate_list
+    global ownermodel_list
+    ownername_list.append(name)
+    ownerplate_list.append(plate)
+    ownermodel_list.append(model)
+    global counter
+    counter += 1
+    global duplicate
+    global final
+    duplicate.append(model)
+    final.append(model)
+    
+    file1=open("Vname.txt","a")
+    print(name,file=file1,sep="\n")
+    file1.close()
+    
+    file2=open("Vplate.txt","a")
+    print(plate,file=file2,sep="\n")
+    file2.close()
+    
+    file3=open("Vmodel.txt","a")
+    print(model,file=file3,sep="\a")
+    file3.close()
+    
+    ch = input("Press any key to continue...")
+
+
+def changeOwner():
+    print("Change vehicle owner")
+    check = input("Enter name of owner: ")
+    for i in range(0, counter):
+        if check == ownername_list[i]:
+            newname = input("Enter new name of owner:")
+            ownername_list[i] = newname
+    ch = input("Press any key to continue...")
+
+
+def viewVehicles():
+    print("View all vehicles")
+    print("Following vehicles are registered:")
+    print("Owner", "\t", "Plate number", "\t", "\t", "Model year")
+    for i in range(0, counter):
+        print(ownername_list[i], "\t", ownerplate_list[i],
+              "\t", ownermodel_list[i])
+    print(" ")
+    ch = input("Press any key to continue...")
+
+
+def latestFunction():
+    print("Owner", "\t", "Plate number", "\t", "Model year")
+    duplicate.sort(reverse=True)
+    for i in range(0,len(duplicate)):
+        print(ownername_list[i],"\t",ownerplate_list[i],"\t",duplicate[i])
+    
+    
+    
+    
+    ch = input("Press any key to continue...")
+
+
+def addImported():
+    importedName = input("Enter name of owner: ")
+    importedPlate = int(input("Enter plate of vehicle: "))
+    importedModel = int(input("Enter model year of vehicle: "))
+    tax = input("Is tax paid? (yes/no):")
+    global importedname_list
+    global importedplate_list
+    global importedyear_list
+    global tax_list
+    importedname_list.append(importedName)
+    importedplate_list.append(importedPlate)
+    importedyear_list.append(importedModel)
+    tax_list.append(tax)
+    global importedCounter
+    importedCounter += 1
+    
+    file1=open("Iname.txt","a")
+    print(importedName,file=file1,sep="\n")
+    file1.close()
+    
+    file2=open("Iplate.txt","a")
+    print(importedPlate,file=file2,sep="\n")
+    file2.close()
+    
+    file3=open("Imodel.txt","a")
+    print(importedModel,file=file3,sep="\n")
+    file3.close()
+    
+    file4=open("tax.txt","a")
+    print(tax,file=file4,sep="\n")
+    file4.close()
+    
+    
+    
+    ch = input("Press any key to continue...")
+
+
+def viewImported():
+    print("View all imported vehicles")
+    print("Following imported vehicles are registered:")
+    print("Owner", "\t", "Plate number", "\t", "Model year", "\t", "Tax")
+    for i in range(0, importedCounter):
+        print(importedname_list[i], "\t", importedplate_list[i],
+              "\t", "\t", importedyear_list[i], "\t", tax_list[i])
+    ch = input("Press any key to continue...")
+
+
+def taxFunction():
+    print("Owner", "\t", "Plate number", "\t", "Model year", "\t", "Tax")
+    for i in range(0, importedCounter):
+        if tax_list[i] == "no":
+            print(importedname_list[i], "\t", importedplate_list[i],
+                  "\t", "\t", importedyear_list[i], "\t", tax_list[i])
+    ch = input("Press any key to continue...")
+
+
+while True:
+    global login
+    login = False
+    os.system("cls")
+    print("*** Vehicle Registration Center")
+    print(" ")
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+    #global adminOption
+    #global regOption
+    if username == "riz" and password == "abc":
+        login = True
+        adminOption = 0
+        while adminOption != 4:
+            os.system("cls")
+            adminOption = adminMenu()
+            if adminOption == 1:
+                os.system("cls")
+                addReg()
+            elif adminOption == 2:
+                os.system("cls")
+                changeReg()
+            elif adminOption == 3:
+                os.system("cls")
+                viewReg()
+            elif adminOption > 5 or adminOption < 1:
+                print("You have entered wrong information...")
+    else:
+        for i in range(0, total):
+            if username == reg_list[i] and password == regPin_list[i]:
+                login = True
+                global OP
+                OP = 0
+                while OP != 8:
+                    OP = regMenu()
+                    if OP == 1:
+                        os.system("cls")
+                        addVehicle()
+                    elif OP == 2:
+                        os.system("cls")
+                        changeOwner()
+                    elif OP == 3:
+                        os.system("cls")
+                        viewVehicles()
+                    elif OP == 4:
+                        os.system("cls")
+                        latestFunction()
+                    elif OP == 5:
+                        os.system("cls")
+                        addImported()
+                    elif OP == 6:
+                        os.system("cls")
+                        viewImported()
+                    elif OP == 7:
+                        os.system("cls")
+                        taxFunction()
+                    elif OP > 8 or OP < 1:
+                        print("You have entered wrong information...")
+    if login == False:
+        print("You have entered wrong information...")
+        ch = input("Press enter to continue...")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

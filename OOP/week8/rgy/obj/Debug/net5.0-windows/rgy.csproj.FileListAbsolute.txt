@@ -1,0 +1,16 @@
+D:\semester2\OOP\week8\rgy\bin\Debug\net5.0-windows\rgy.exe
+D:\semester2\OOP\week8\rgy\bin\Debug\net5.0-windows\rgy.deps.json
+D:\semester2\OOP\week8\rgy\bin\Debug\net5.0-windows\rgy.runtimeconfig.json
+D:\semester2\OOP\week8\rgy\bin\Debug\net5.0-windows\rgy.runtimeconfig.dev.json
+D:\semester2\OOP\week8\rgy\bin\Debug\net5.0-windows\rgy.dll
+D:\semester2\OOP\week8\rgy\bin\Debug\net5.0-windows\ref\rgy.dll
+D:\semester2\OOP\week8\rgy\bin\Debug\net5.0-windows\rgy.pdb
+D:\semester2\OOP\week8\rgy\obj\Debug\net5.0-windows\rgy.csprojAssemblyReference.cache
+D:\semester2\OOP\week8\rgy\obj\Debug\net5.0-windows\rgy.GeneratedMSBuildEditorConfig.editorconfig
+D:\semester2\OOP\week8\rgy\obj\Debug\net5.0-windows\rgy.AssemblyInfoInputs.cache
+D:\semester2\OOP\week8\rgy\obj\Debug\net5.0-windows\rgy.AssemblyInfo.cs
+D:\semester2\OOP\week8\rgy\obj\Debug\net5.0-windows\rgy.csproj.CoreCompileInputs.cache
+D:\semester2\OOP\week8\rgy\obj\Debug\net5.0-windows\rgy.dll
+D:\semester2\OOP\week8\rgy\obj\Debug\net5.0-windows\ref\rgy.dll
+D:\semester2\OOP\week8\rgy\obj\Debug\net5.0-windows\rgy.pdb
+D:\semester2\OOP\week8\rgy\obj\Debug\net5.0-windows\rgy.genruntimeconfig.cache

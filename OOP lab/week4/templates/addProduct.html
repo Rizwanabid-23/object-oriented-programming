@@ -1,0 +1,38 @@
+{%extends "base.html"%}
+
+{%block title%}
+Add products
+
+<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%endblock%}
+
+{%block body%}
+
+<div class="login-form" style="margin:0 auto; width: 350px;">
+    <form action="/addProducts" method="POST">
+        <h2 style="padding: 20px;" class="text-center" style="color: rgb(255, 255, 255);" > <u> Add products </u></h2>
+        
+        <div class="form-group">
+            <input type="text" class="form-control" name="ID" value=""  placeholder="ID" required="required">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" name="name" value=""  placeholder="product name" required="required">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" name="sale_price" value=""  placeholder="sales price" required="required">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" name="purchase_price" value=""  placeholder="purchase price" required="required">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-warning btn-block">submit</button>
+        </div>
+    </form>
+</div>
+
+
+{%endblock%}

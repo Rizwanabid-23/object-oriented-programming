@@ -1,0 +1,16 @@
+D:\semester2\OOP lab\week7\program2\obj\Debug\net5.0-windows\program2.csprojAssemblyReference.cache
+D:\semester2\OOP lab\week7\program2\obj\Debug\net5.0-windows\program2.GeneratedMSBuildEditorConfig.editorconfig
+D:\semester2\OOP lab\week7\program2\obj\Debug\net5.0-windows\program2.AssemblyInfoInputs.cache
+D:\semester2\OOP lab\week7\program2\obj\Debug\net5.0-windows\program2.AssemblyInfo.cs
+D:\semester2\OOP lab\week7\program2\obj\Debug\net5.0-windows\program2.csproj.CoreCompileInputs.cache
+D:\semester2\OOP lab\week7\program2\bin\Debug\net5.0-windows\program2.exe
+D:\semester2\OOP lab\week7\program2\bin\Debug\net5.0-windows\program2.deps.json
+D:\semester2\OOP lab\week7\program2\bin\Debug\net5.0-windows\program2.runtimeconfig.json
+D:\semester2\OOP lab\week7\program2\bin\Debug\net5.0-windows\program2.runtimeconfig.dev.json
+D:\semester2\OOP lab\week7\program2\bin\Debug\net5.0-windows\program2.dll
+D:\semester2\OOP lab\week7\program2\bin\Debug\net5.0-windows\ref\program2.dll
+D:\semester2\OOP lab\week7\program2\bin\Debug\net5.0-windows\program2.pdb
+D:\semester2\OOP lab\week7\program2\obj\Debug\net5.0-windows\program2.dll
+D:\semester2\OOP lab\week7\program2\obj\Debug\net5.0-windows\ref\program2.dll
+D:\semester2\OOP lab\week7\program2\obj\Debug\net5.0-windows\program2.pdb
+D:\semester2\OOP lab\week7\program2\obj\Debug\net5.0-windows\program2.genruntimeconfig.cache

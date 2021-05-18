@@ -1,0 +1,16 @@
+D:\semester2\OOP\week8\bin\Debug\net5.0\week8.exe
+D:\semester2\OOP\week8\bin\Debug\net5.0\week8.deps.json
+D:\semester2\OOP\week8\bin\Debug\net5.0\week8.runtimeconfig.json
+D:\semester2\OOP\week8\bin\Debug\net5.0\week8.runtimeconfig.dev.json
+D:\semester2\OOP\week8\bin\Debug\net5.0\week8.dll
+D:\semester2\OOP\week8\bin\Debug\net5.0\ref\week8.dll
+D:\semester2\OOP\week8\bin\Debug\net5.0\week8.pdb
+D:\semester2\OOP\week8\obj\Debug\net5.0\week8.csprojAssemblyReference.cache
+D:\semester2\OOP\week8\obj\Debug\net5.0\week8.GeneratedMSBuildEditorConfig.editorconfig
+D:\semester2\OOP\week8\obj\Debug\net5.0\week8.AssemblyInfoInputs.cache
+D:\semester2\OOP\week8\obj\Debug\net5.0\week8.AssemblyInfo.cs
+D:\semester2\OOP\week8\obj\Debug\net5.0\week8.csproj.CoreCompileInputs.cache
+D:\semester2\OOP\week8\obj\Debug\net5.0\week8.dll
+D:\semester2\OOP\week8\obj\Debug\net5.0\ref\week8.dll
+D:\semester2\OOP\week8\obj\Debug\net5.0\week8.pdb
+D:\semester2\OOP\week8\obj\Debug\net5.0\week8.genruntimeconfig.cache

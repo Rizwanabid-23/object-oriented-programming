@@ -1,0 +1,10 @@
+D:\semester2\OOP\week13\game framework\game framework\bin\Debug\game framework.exe.config
+D:\semester2\OOP\week13\game framework\game framework\bin\Debug\game framework.exe
+D:\semester2\OOP\week13\game framework\game framework\bin\Debug\game framework.pdb
+D:\semester2\OOP\week13\game framework\game framework\obj\Debug\game framework.csprojAssemblyReference.cache
+D:\semester2\OOP\week13\game framework\game framework\obj\Debug\game_framework.Form1.resources
+D:\semester2\OOP\week13\game framework\game framework\obj\Debug\game_framework.Properties.Resources.resources
+D:\semester2\OOP\week13\game framework\game framework\obj\Debug\game framework.csproj.GenerateResource.cache
+D:\semester2\OOP\week13\game framework\game framework\obj\Debug\game framework.csproj.CoreCompileInputs.cache
+D:\semester2\OOP\week13\game framework\game framework\obj\Debug\game framework.exe
+D:\semester2\OOP\week13\game framework\game framework\obj\Debug\game framework.pdb

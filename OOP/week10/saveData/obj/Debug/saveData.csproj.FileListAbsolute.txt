@@ -1,0 +1,10 @@
+D:\semester2\OOP\week10\saveData\bin\Debug\saveData.exe.config
+D:\semester2\OOP\week10\saveData\bin\Debug\saveData.exe
+D:\semester2\OOP\week10\saveData\bin\Debug\saveData.pdb
+D:\semester2\OOP\week10\saveData\obj\Debug\saveData.csprojAssemblyReference.cache
+D:\semester2\OOP\week10\saveData\obj\Debug\saveData.Form1.resources
+D:\semester2\OOP\week10\saveData\obj\Debug\saveData.Properties.Resources.resources
+D:\semester2\OOP\week10\saveData\obj\Debug\saveData.csproj.GenerateResource.cache
+D:\semester2\OOP\week10\saveData\obj\Debug\saveData.csproj.CoreCompileInputs.cache
+D:\semester2\OOP\week10\saveData\obj\Debug\saveData.exe
+D:\semester2\OOP\week10\saveData\obj\Debug\saveData.pdb

@@ -1,0 +1,16 @@
+D:\semester2\OOP\week7\practice\bin\Debug\net5.0\practice.exe
+D:\semester2\OOP\week7\practice\bin\Debug\net5.0\practice.deps.json
+D:\semester2\OOP\week7\practice\bin\Debug\net5.0\practice.runtimeconfig.json
+D:\semester2\OOP\week7\practice\bin\Debug\net5.0\practice.runtimeconfig.dev.json
+D:\semester2\OOP\week7\practice\bin\Debug\net5.0\practice.dll
+D:\semester2\OOP\week7\practice\bin\Debug\net5.0\ref\practice.dll
+D:\semester2\OOP\week7\practice\bin\Debug\net5.0\practice.pdb
+D:\semester2\OOP\week7\practice\obj\Debug\net5.0\practice.csprojAssemblyReference.cache
+D:\semester2\OOP\week7\practice\obj\Debug\net5.0\practice.GeneratedMSBuildEditorConfig.editorconfig
+D:\semester2\OOP\week7\practice\obj\Debug\net5.0\practice.AssemblyInfoInputs.cache
+D:\semester2\OOP\week7\practice\obj\Debug\net5.0\practice.AssemblyInfo.cs
+D:\semester2\OOP\week7\practice\obj\Debug\net5.0\practice.csproj.CoreCompileInputs.cache
+D:\semester2\OOP\week7\practice\obj\Debug\net5.0\practice.dll
+D:\semester2\OOP\week7\practice\obj\Debug\net5.0\ref\practice.dll
+D:\semester2\OOP\week7\practice\obj\Debug\net5.0\practice.pdb
+D:\semester2\OOP\week7\practice\obj\Debug\net5.0\practice.genruntimeconfig.cache
